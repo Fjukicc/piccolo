@@ -150,7 +150,7 @@ const SectionContainer = styled(Container)`
 
 const SectionItemsContainer = styled.div`
   display: flex;
-  width: 97%;
+  width: 100%;
   height: 100%;
   @media only screen and (max-width: 1100px) {
     flex-direction: column;
