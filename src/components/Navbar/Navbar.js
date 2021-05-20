@@ -10,7 +10,7 @@ const Navbar = ({howMuchScrolled}) => {
         <>
             <NavbarContainer>
                 <NavbarElementsContainer>
-                    <LogoText>Caffe bar Picollo</LogoText>
+                    <LogoText>Caffe bar Piccolo</LogoText>
                     <NavbarButtonsContainer>
                         <NavbarButton activeClass="active"  to="galerija" spy={true} smooth={true} offset={-50} >
                             Galerija

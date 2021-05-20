@@ -109,7 +109,13 @@ const ModalClose = styled.button`
     background-color: transparent;
     padding: 5px 8px;
     font-size: 1.6rem;
+    cursor: pointer;
     font-weight: 200;
+    transition: 0.4s ease-in-out;
+    &:hover{
+      color: red;
+      border: 1px solid red;
+    }
 
 `
 
@@ -150,7 +156,7 @@ const SectionContainer = styled(Container)`
 
 const SectionItemsContainer = styled.div`
   display: flex;
-  width: 97%;
+  width: 100%;
   height: 100%;
   @media only screen and (max-width: 1100px) {
     flex-direction: column;
